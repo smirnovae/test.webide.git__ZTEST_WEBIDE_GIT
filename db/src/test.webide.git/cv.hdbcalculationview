@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="test.webide.git::cv" enforceSqlExecution="false" cacheInvalidationPeriod="NONE" outputViewType="Projection" schemaVersion="3.0" dimensionType="STANDARD" dataCategory="DIMENSION" applyPrivilegeType="NONE">
+<descriptions defaultDescription="cv"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="test.webide.git::git">
+    <resourceUri>test.webide.git::git</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="test.webide.git::git">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="git" columnName="MANDT"/>
+    </attribute>
+    <attribute id="MSEHI" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSEHI"/>
+      <keyMapping columnObjectName="git" columnName="MSEHI"/>
+    </attribute>
+    <attribute id="KZEX3" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZEX3"/>
+      <keyMapping columnObjectName="git" columnName="KZEX3"/>
+    </attribute>
+    <attribute id="KZEX6" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZEX6"/>
+      <keyMapping columnObjectName="git" columnName="KZEX6"/>
+    </attribute>
+    <attribute id="ANDEC" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANDEC"/>
+      <keyMapping columnObjectName="git" columnName="ANDEC"/>
+    </attribute>
+    <attribute id="KZKEH" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZKEH"/>
+      <keyMapping columnObjectName="git" columnName="KZKEH"/>
+    </attribute>
+    <attribute id="KZWOB" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZWOB"/>
+      <keyMapping columnObjectName="git" columnName="KZWOB"/>
+    </attribute>
+    <attribute id="KZ1EH" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZ1EH"/>
+      <keyMapping columnObjectName="git" columnName="KZ1EH"/>
+    </attribute>
+    <attribute id="KZ2EH" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZ2EH"/>
+      <keyMapping columnObjectName="git" columnName="KZ2EH"/>
+    </attribute>
+    <attribute id="DIMID" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DIMID"/>
+      <keyMapping columnObjectName="git" columnName="DIMID"/>
+    </attribute>
+    <attribute id="ZAEHL" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZAEHL"/>
+      <keyMapping columnObjectName="git" columnName="ZAEHL"/>
+    </attribute>
+    <attribute id="NENNR" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NENNR"/>
+      <keyMapping columnObjectName="git" columnName="NENNR"/>
+    </attribute>
+    <attribute id="EXP10" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXP10"/>
+      <keyMapping columnObjectName="git" columnName="EXP10"/>
+    </attribute>
+    <attribute id="ADDKO" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADDKO"/>
+      <keyMapping columnObjectName="git" columnName="ADDKO"/>
+    </attribute>
+    <attribute id="EXPON" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXPON"/>
+      <keyMapping columnObjectName="git" columnName="EXPON"/>
+    </attribute>
+    <attribute id="DECAN" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DECAN"/>
+      <keyMapping columnObjectName="git" columnName="DECAN"/>
+    </attribute>
+    <attribute id="ISOCODE" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ISOCODE"/>
+      <keyMapping columnObjectName="git" columnName="ISOCODE"/>
+    </attribute>
+    <attribute id="PRIMARY" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRIMARY"/>
+      <keyMapping columnObjectName="git" columnName="PRIMARY"/>
+    </attribute>
+    <attribute id="TEMP_VALUE" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TEMP_VALUE"/>
+      <keyMapping columnObjectName="git" columnName="TEMP_VALUE"/>
+    </attribute>
+    <attribute id="TEMP_UNIT" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TEMP_UNIT"/>
+      <keyMapping columnObjectName="git" columnName="TEMP_UNIT"/>
+    </attribute>
+    <attribute id="FAMUNIT" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FAMUNIT"/>
+      <keyMapping columnObjectName="git" columnName="FAMUNIT"/>
+    </attribute>
+    <attribute id="PRESS_VAL" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRESS_VAL"/>
+      <keyMapping columnObjectName="git" columnName="PRESS_VAL"/>
+    </attribute>
+    <attribute id="PRESS_UNIT" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRESS_UNIT"/>
+      <keyMapping columnObjectName="git" columnName="PRESS_UNIT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectNameSpace="MeasureGroup" modelObjectName="Output">
+      <upperLeftCorner y="85" x="40"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

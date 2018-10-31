@@ -1,0 +1,8 @@
+{
+  "test.webide.git::git": {
+    "target": {
+      "object": "T006",
+      "logical_schema": "SAP_ABAP"
+    }
+  }
+}
